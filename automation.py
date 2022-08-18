@@ -36,7 +36,7 @@ def send_opt_in_email():
 
     # create email body
     body = f"Hi {name},\n\nYou have been added to our mailing list.\n\nThank you for subscribing!"
-    # send email to each recipient
+    # send email to recipient
     send_email("You have been added to our mailing list!", body, email)
 
 # function that handles the time trigger
